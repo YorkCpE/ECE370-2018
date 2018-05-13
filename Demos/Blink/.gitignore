@@ -1,0 +1,12 @@
+*.o
+*.hex
+*.elf
+*.bin
+*.s37
+*.axf
+*.d
+*.mk
+*.map
+
+/GNU ARM v4.9.3 - Release/
+/GNU ARM v4.9.3 - Debug/
