@@ -109,7 +109,9 @@ int main(void)
 
 	/**
 	 * Task 3: Pure Pointer Math. Calculate the addresses for PE_MODEL
-	 * and PE_DOUT to manually configure the bits for LED1/PE3
+	 * and PE_DOUT to manually configure the bits for LED1/PE3. You may want to 
+	 * use the suggest functions above. Only if they are implemented via pointer math
+	 * and not EMLIB calls.
 	 */
 
 	/**
