@@ -29,7 +29,7 @@
  * @param pos bit-wise position [31-0] of the bit to read
  * @return value of that bit as an unsigned integer
  */
-//unsigned int readBit(volatile const uint32_t *addr, unsigned int pos)
+//unsigned int readBit(volatile const uint32_t *addr, uint32_t pos)
 
 
 /**
@@ -39,7 +39,7 @@
  * @param val the value to be written into the bit position
  * @return void
  */
-//void writeBit(volatile uint32_t *addr, unsigned int bitPos, unsigned int val)
+//void writeBit(volatile uint32_t *addr, uint32_t bitPos, uint32_t val)
 
 /**
  * Set the output value of the in the DOUT register for a GPIO
