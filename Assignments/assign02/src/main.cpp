@@ -136,7 +136,7 @@ int main(void)
 	 * The TIMER0 interrupt handler should now pop one second later
 	 */
 
-	//(e) complete the interrupt handler described above
+	//(e) complete implementation of TIMER0_IRQHandler interrupt handler above
 
 	while(1)
 	{
