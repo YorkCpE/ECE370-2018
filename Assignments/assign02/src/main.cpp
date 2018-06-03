@@ -63,7 +63,7 @@ int main(void)
 	CMU_ClockEnable(cmuClock_TIMER0, true);
 
 	//double check that clock is 14 MHz
-	int timerClock = CMU_ClockFreqGet(cmuClock_TIMER0);
+	unsigned int timerClock = CMU_ClockFreqGet(cmuClock_TIMER0);
 
 	/**
 	 * Dumb Method 1: Manually start/top the timer and peek at it's value
@@ -84,7 +84,7 @@ int main(void)
 	 * threshold = (duration * clock freq) / pre-scaler
 	 * Set this to the value of a 1s timer
 	 */
-	int timerThershold = 0000;
+	unsigned int timerThershold = 0000;
 
 	//make a dummy loop and wait until we hit the
 	//threshold
@@ -96,9 +96,11 @@ int main(void)
 	//(f) see what value we actually stopped at
 	//should only off by 1-2 values but should we waste our time
 	//constantly polling a variable?
-	int value = TIMER0->CNT;
+	unsigned int value = TIMER0->CNT;
 
 	// (g) reset value to 0
+	
+	////////////////////////// END TASK 1 //////////////////////////
 
 	/**
 	 * Smarter Method 2: Set a top value in the timer and look for the overflow flag
@@ -115,6 +117,8 @@ int main(void)
 	//(d) stop the timer
 
 	//(e) clear the IF flag
+	
+	////////////////////////// END TASK 2 //////////////////////////
 
 	/**
 	 * Real Engineer Method 3: Create an interrupt handler to deal with the overflow
@@ -136,8 +140,10 @@ int main(void)
 	 * The TIMER0 interrupt handler should now pop one second later
 	 */
 
-	//(e) complete implementation of TIMER0_IRQHandler interrupt handler above
+	//(e) complete implementation of TIMER0_IRQHandler interrupt handler above. Do not write your
+	// code here. It should go in the TIMER0 function above main()
 
+	////////////////////////// END TASK 3 //////////////////////////
 	while(1)
 	{
 
