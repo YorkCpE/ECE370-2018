@@ -34,15 +34,14 @@ void writeBit(volatile uint32_t *addr, unsigned int bitPos, unsigned int val)
  */
 void TIMER0_IRQHandler(void)
 {
-	//CMSIS implementation handles clearing NVIC interrupt flag
-
-	//must clear the flag or we will keep ending up here
+	//Must still clear associated flag in TIMER0 or we will keep ending up here
 
 
-	//stop the timer (optional)
+	//stop the timer
 
 
-	//read the value just for fun
+	//read the value just for fun (to create a breakpoint)
+	//CNT should be value approx. for one second delay
 
 
 }
