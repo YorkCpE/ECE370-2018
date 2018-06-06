@@ -29,12 +29,12 @@
  * Start a specified timer
  * @param timer A TIMER_TypeDef object for the timer you wish to modify
  */
-inline void startTimer(TIMER_TypeDef timer);
+inline void startTimer(TIMER_TypeDef* timer);
 
 /**
  * Stop a specified timer
  * @param timer A TIMER_TypeDef object for the timer you wish to modify
  */
-inline void stopTimer(TIMER_TypeDef timer);
+inline void stopTimer(TIMER_TypeDef* timer);
 
 #endif /* SRC_TIMER_H_ */
