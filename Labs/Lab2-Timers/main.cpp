@@ -1,11 +1,11 @@
-#include "em_device.h"
-#include "em_chip.h"
-#include "em_cmu.h"
-#include "em_emu.h"
-#include "bsp.h"
-#include "bsp_trace.h"
-#include "em_gpio.h"
-#include "em_timer.h"
+#include <em_device.h>
+#include <em_chip.h>
+#include <em_cmu.h>
+#include <em_emu.h>
+#include <bsp.h>
+#include <bsp_trace.h>
+#include <em_gpio.h>
+#include <em_timer.h>
 
 #include <stdint.h>
 #include <stdbool.h>
