@@ -69,6 +69,10 @@ int main(void)
 	 * Use the Application note as a reference
 	 */
 
+	//clear the TIMER CNT just to be safe there's no
+	//old value here.
+	TIMER0->CNT=0x0;
+
 	//(a) set timer MODE UP, if needed
 
 	//(b) set timer clksel HFPER, if needed
