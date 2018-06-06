@@ -97,7 +97,7 @@ int main(void)
 	//constantly polling a variable?
 	unsigned int value = TIMER0->CNT;
 
-	// (g) reset value to 0
+	// (g) reset timer count register to 0
 	
 	////////////////////////// END TASK 1 //////////////////////////
 
