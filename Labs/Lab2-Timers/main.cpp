@@ -72,7 +72,7 @@ int main(void)
 
 
 
-
+	///////////No Student Code Below This Point///////////
 	/**
 	 * Dummy variables in while(1) so you can set break points
 	 */
@@ -80,6 +80,7 @@ int main(void)
 	while(1)
 	{
 		counter++;
+		///Place no code in the while(1) loop///
 	}
 }
 
