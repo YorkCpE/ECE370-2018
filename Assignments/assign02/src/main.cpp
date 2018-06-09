@@ -41,9 +41,8 @@ void TIMER0_IRQHandler(void)
 
 
 	//read the value just for fun (to create a breakpoint)
-	//CNT should be value approx. for one second delay
-
-
+	
+	
 }
 
 
