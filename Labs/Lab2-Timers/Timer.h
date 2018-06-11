@@ -10,6 +10,8 @@
 #ifndef SRC_TIMER_H_
 #define SRC_TIMER_H_
 
+#include <em_timer.h>
+
 #include <stdint.h>
 #include <stdbool.h>
 

@@ -10,6 +10,8 @@
 #ifndef SRC_GPIO_H_
 #define SRC_GPIO_H_
 
+#include <em_gpio.h>
+
 #include "Helper.h"
 
 ///Useful location for #define statement to help with masks
