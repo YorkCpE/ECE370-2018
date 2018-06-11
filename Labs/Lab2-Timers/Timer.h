@@ -29,13 +29,13 @@
 
 /**
  * Start a specified timer
- * @param timer A TIMER_TypeDef object for the timer you wish to modify
+ * @param timer A pointer to TIMER_TypeDef object for the timer you wish to modify. Example: TIMER0, TIMER1...etc.
  */
 inline void startTimer(TIMER_TypeDef* timer);
 
 /**
  * Stop a specified timer
- * @param timer A TIMER_TypeDef object for the timer you wish to modify
+ * @param timer A pointer to TIMER_TypeDef object for the timer you wish to modify. Example: TIMER0, TIMER1...etc.
  */
 inline void stopTimer(TIMER_TypeDef* timer);
 
