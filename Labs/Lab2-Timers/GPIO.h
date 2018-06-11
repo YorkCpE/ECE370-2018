@@ -24,7 +24,7 @@
 
 /**
  * Set pin output value. Only works if correct Port address is provided
- * @param port A GPIO_Port_TypeDef object for the port you wish to modify
+ * @param port A GPIO_Port_TypeDef object for the port you wish to modify (gpioPortA, gpioPortB...etc.)
  * @param pinNum The pin number whose output you wish to change/set
  * @param value The value desired of the pin. Should be 0x0 or 0x1.
  */
@@ -33,7 +33,7 @@ void setPinOutputValue(GPIO_Port_TypeDef port, uint32_t pinNum, uint32_t value);
 
 /**
  * Set pin mode. Only works if correct Port Mode register address is provided
- * @param port A GPIO_Port_TypeDef object for the port you wish to modify
+ * @param port A GPIO_Port_TypeDef object for the port you wish to modify (gpioPortA, gpioPortB...etc.)
  * @param pinNum The pin number whose output you wish to change/set
  * @param mode The mode (as expressed in hex) that you wish to place the pin into.
  */
@@ -41,7 +41,7 @@ void setPinMode(GPIO_Port_TypeDef port, uint32_t pinNum, uint32_t mode);
 
 /**
  * Toggle the output state of a pin
- * @param port A GPIO_Port_TypeDef object for the port you wish to modify
+ * @param port A GPIO_Port_TypeDef object for the port you wish to modify (gpioPortA, gpioPortB...etc.)
  * @param pinNum The pin number whose output you wish to toggle
  */
 void toggleLED(GPIO_Port_TypeDef port, uint32_t pinNum);
@@ -50,7 +50,7 @@ void toggleLED(GPIO_Port_TypeDef port, uint32_t pinNum);
 /**
  * Sets up pin as external interrupt. Enables pin as input, sets edge detection and
  * enables interrupt in NVIC controller
- * @param port A GPIO_Port_TypeDef object for the port you wish to modify
+ * @param port A GPIO_Port_TypeDef object for the port you wish to modify (gpioPortA, gpioPortB...etc.)
  * @param pinNum The pin number for which you want to enable interrupts
  * @param risingEdge Enable/Disable rising edge interrupts
  * @param fallingEdge Enable/Disable falling edge interrupts
