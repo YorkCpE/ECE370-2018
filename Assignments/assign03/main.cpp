@@ -132,6 +132,7 @@ int main(void)
 	//Read data out of RXDATA. Should read the same value as your "number" above
 	uint8_t rxNum;
 
+	//Do not modify this block as it will be used to check your solution
 	bool task1Success=false;
 	if(rxNum==txNum)
 	{
@@ -169,12 +170,14 @@ int main(void)
 
 	uint8_t value2;
 
+	//Do not modify this block as it will be used to check your solution
 	bool task2Success=false;
 	if(value1==array[0] && value2==array[1])
 	{
 		task2Success=true;
 	}
 
+	//Do not modify this block as it will be used to check your solution
 	if(task1Success==true && task2Success==true)
 	{
 		//then you've completed the lab
