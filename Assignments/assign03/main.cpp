@@ -13,6 +13,7 @@
 #include <bsp_trace.h>
 #include <em_gpio.h>
 #include <em_timer.h>
+#include <em_usart.h>
 
 #include <stdint.h>
 #include <stdbool.h>
