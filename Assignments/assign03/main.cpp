@@ -153,7 +153,8 @@ int main(void)
 	 * Your code here
 	 */
 
-	//write the second variable into TXDOUBLE
+	//write the second variable into TXDOUBLE but left shifted by
+	//8 bits. So array[1]<<8
 	/**
 	 * Your code here
 	 */
