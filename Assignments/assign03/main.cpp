@@ -40,7 +40,7 @@ int main(void)
 	CMU_ClockEnable(cmuClock_USART1,true);
 
 
-	///////////////////BEGIN USART0 CONFIGURATION///////////////////
+	///////////////////BEGIN USART CONFIGURATION///////////////////
 
 	/**
 	 * Begin configuration of USART1
@@ -93,7 +93,7 @@ int main(void)
 	 * Your code here
 	 */
 
-	///////////////////END USART0 CONFIGURATION///////////////////
+	///////////////////END USART CONFIGURATION///////////////////
 
 	///////////////////BEGIN GPIO CONFIGURATION///////////////////
 
