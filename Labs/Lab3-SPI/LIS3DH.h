@@ -39,8 +39,8 @@ public:
 	virtual ~LIS3DH();
 
 	/**
-	 * Initialize SPI device to communicate 2 MHz, sample at 50Hz, enable
-	 * all axis measurements, full power on. Set the FIFO to Bypass Mode (default)
+	 * Initialize SPI device to sample at 40Hz, enable
+	 * all axis, full power on. Set the FIFO to Bypass Mode (default). High Resolution Mode.
 	 *
 	 *@return result returns true if initialization completed successfully, otherwise false
 	 */
