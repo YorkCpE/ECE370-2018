@@ -45,7 +45,7 @@ LIS3DH::~LIS3DH() {
 }
 
 /**
- * Initialize SPI device to sample at 40Hz, enable
+ * Initialize SPI device to sample at 50Hz, enable
  * all axis, full power on. Set the FIFO to Bypass Mode (default). High Resolution Mode.
  *
  *@return result returns true if initialization completed successfully, otherwise false

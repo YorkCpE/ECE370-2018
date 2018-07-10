@@ -36,7 +36,7 @@ int main(void)
 
 	/**
 	 * Perform a self-test. This will attempt to
-	 * read a fixed register on the LIS3DhH. If the
+	 * read a fixed register on the LIS3DH. If the
 	 * self-test fails, then your program should not proceed.
 	 */
 	/*bool selfTest=accel.selfSelf();
