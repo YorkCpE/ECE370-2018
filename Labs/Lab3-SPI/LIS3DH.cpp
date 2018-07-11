@@ -6,6 +6,7 @@
  */
 
 #include "LIS3DH.h"
+#include "Helper.h"
 
 /**
  * Default constructor. Sets up default values
