@@ -98,6 +98,14 @@ bool LIS3DH::selfTest()
 	 * Return true if successful, false otherwise.
 	 */
 
+	if(readRegister(WHO_AM_I_REG)==0x33)
+	{
+		return true;
+	}
+	else
+	{
+		return false;
+	}
 }
 
 /**
