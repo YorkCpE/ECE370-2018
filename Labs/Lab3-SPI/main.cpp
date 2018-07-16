@@ -39,7 +39,7 @@ int main(void)
 	 * read a fixed register on the LIS3DH. If the
 	 * self-test fails, then your program should not proceed.
 	 */
-	/*bool selfTest=accel.selfSelf();
+	/*bool selfTest=accel.selfTest();
 	if(!selfTest)
 	{
 		while(1){};
