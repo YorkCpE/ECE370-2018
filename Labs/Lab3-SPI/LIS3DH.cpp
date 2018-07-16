@@ -121,4 +121,13 @@ void LIS3DH::delay(int num)
 	}
 }
 
+void LIS3DH::setupClocks() {
+	//enable the clock for the High-Frequency Peripherals
+
+	//enable GPIO clock
+
+	//enable the USART1 clock
+
+}
+
 
