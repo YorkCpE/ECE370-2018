@@ -82,6 +82,9 @@ bool LIS3DH::initialize()
 	//and load configuration information
 	Helper::delay(5);
 
+	//This can be commented out until you
+	//have completed the writeRegister function in 
+	//CustomI2C
 	//configure the LIS3DH
 	setupLIS3DH();
 
