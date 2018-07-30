@@ -34,7 +34,7 @@
 /**
  * LIS3DH i2c Address
  */
-#define LIS3DH_I2C_ADDRESS 0x19u
+#define LIS3DH_I2C_ADDRESS 
 
 #define WHO_AM_I_REG 0x0Fu
 
