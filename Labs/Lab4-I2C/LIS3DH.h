@@ -1,5 +1,5 @@
 /**
- * LIS23DH.h
+ * LIS3DH.h
  *
  *  Created on: Jul 9, 2017
  *      Author: Jason Forsyth

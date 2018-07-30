@@ -1,5 +1,5 @@
 /**
- * LIS23DH.cpp
+ * LIS3DH.cpp
  *
  *  Created on: Jul 9, 2017
  *      Author: Jason Forsyth
