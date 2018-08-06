@@ -12,6 +12,7 @@
 #include <stdint.h>
 
 #include "em_i2c.h"
+#include "em_gpio.h"
 
 /**
  * Enumerate the possible states of the I2C bus. Function call getI2CState()

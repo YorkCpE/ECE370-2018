@@ -62,7 +62,21 @@ void CustomI2C::setupClocks()
  */
 void CustomI2C::setupGPIO()
 {
-	
+	//setup PC4 as SCL
+	GPIO_PinModeSet(gpioPortC,4,gpioModeWiredAnd,1);
+
+	//setup PC5 as SDA
+	GPIO_PinModeSet(gpioPortC,5,gpioModeWiredAnd,1);
+
+	/* In some situations (after a reset during an I2C transfer), the slave */
+	/* device may be left in an unknown state. Send 9 clock pulses just in case. */
+	//Functionality not needed for current implementation but kept here because referenced
+	//from data sheet
+	for (int i = 0; i < 9; i++)
+	{
+		//GPIO_PinModeSet(gpioPortC, 4, gpioModeWiredAnd, 0);
+		//GPIO_PinModeSet(gpioPortC, 4, gpioModeWiredAnd, 1);
+	}	
 }
 
 /**
