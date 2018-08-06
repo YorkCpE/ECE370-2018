@@ -114,7 +114,7 @@ I2C_State CustomI2C::getI2CState()
  */
 bool CustomI2C::writeRegister(uint8_t i2cAddress, uint8_t internalRegAddr, uint8_t value)
 {
-	
+
 	//successful, return true
 	return true;
 }
@@ -124,6 +124,11 @@ bool CustomI2C::writeRegister(uint8_t i2cAddress, uint8_t internalRegAddr, uint8
  */
 bool CustomI2C::readRegister(uint8_t i2cAddress, uint8_t internalRegAddr, uint8_t* rtr)
 {
+
+	/**
+	* Hints. Make sure to complete all bus transactions (STOP, NACK, ACK...etc)
+	* Before checking for data valid and trying to read data from the RX buffer
+	*/
 	
 	//successful, return true
 	return true;
